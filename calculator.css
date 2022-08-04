@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.calcpage{
+    width: 350px;
+    margin: 65px auto;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+
+}
+
+#display{
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 80px;
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: right;
+    background-color: rgb(255, 115, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.buttons-box{
+    margin: 35px 15px;
+
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 50px;
+    background: white;
+
+}
+
+.btn:hover{
+    background-color: rgb(255, 115, 0);
+}
+.cbtn{
+    background-color: orange;
+    color: white;
+}
+.cbtn:hover{
+    background-color: white;
+    color: orange;
+}
+
+.mbtn{
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.mbtn:hover{
+    color: rgb(255, 115, 0);
+    background-color: white;
+}
+
+.calcpage .finala{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.calcpage .finala a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+
+}
+
+.calcpage .finala a:hover{
+    color: rgb(255, 115, 0);
+}

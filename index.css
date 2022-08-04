@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-page{
+    width: 100%;
+    max-height: 200vh;
+    margin: 0px auto;
+}
+
+nav{
+    height: 100px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 10px 20px;
+    cursor: pointer;
+
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    padding: 10px 25px;
+    
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(255, 115, 0);
+    
+}
+
+span{
+    color: rgb(255, 115, 0);
+}
+
+.main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin: 100px 20px 20px 20px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content h1{
+    color: white;
+    font-family: arial;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.content h3{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Georgia;
+    margin-bottom: 10px;
+
+}
+
+.content h5{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.content p{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    
+}
+
+.contact{
+    position: relative;
+    width: 300px;
+    height: fit-content;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.contact h2{
+    text-align: center;
+}
+.contactform{
+    margin-top: 20px;    
+}
+
+.contactform input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 115, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.contactform input:focus{
+    outline: none;
+}
+
+.contactform input::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.contact .priority{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+.contact .submitbtn{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.contact .submitbtn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.submitbtn:hover{
+    background-color: white;
+    
+}
+
+.loginpage{
+    margin: 100px 20px;
+    width: 300px;
+    height: fit-content;
+    position: relative;
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+.loginpage h2{
+    display: flex;
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 115, 0);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+
+}
+
+.loginpage .inputfield{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(255, 115, 0);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    outline: none;
+
+}
+
+.loginpage .inputfield::placeholder{
+    color: white;
+    font-family: Arial;
+
+}
+
+.loginpage .checkbox{
+    margin: 30px 10px 34px 0px;
+
+}
+
+.loginpage span{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.loginpage .submitbtn{
+    width: 240px;
+    height: 40px;
+    background: rgb(255, 115, 0);
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease;
+
+}
+
+.loginpage .submitbtn:hover{
+    background: white;
+    color: rgb(255, 115, 0);
+}
+
+.loginpage .reglink{
+    font-family: arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.loginpage a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.loginpage a:hover{
+    color: white;
+    font-style: italic;
+    transition: .3s ease;
+
+}
+
+

@@ -1,0 +1,129 @@
+*{
+    padding:0px;
+    margin: 0px;
+    
+    
+}
+
+body{
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+
+body .register{
+    
+    position: relative;
+    width: 280px;
+    height:fit-content;
+    border: 1px solid rgb(255, 115, 0);
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    
+}
+
+.register h2{
+    width: 220px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 115, 0);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    
+    border: 1px solid green;
+    
+}
+
+.register .inputfield{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(255, 115, 0);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.register .inputfield::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.register .checkbox{
+    margin: 30px 10px 34px 0px;
+}
+
+.register a{
+    color: rgb(255, 115, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.register a:hover{
+    font-style: italic;
+    transition: .3s ease;
+    color: white;
+} 
+
+.register .submitbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 40px;
+    background: rgb(255, 115, 0);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease;
+    margin: auto;
+}
+
+.register .submitbtn:hover{
+    background: white;
+    color: rgb(255, 115, 0);
+
+}
+
+.register .gender{
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.register .finala{
+    margin-top: 30px;
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+
+}
+
+.register .finala a{
+    color: white;
+    transition: .3s ease;
+
+}
+
+.register .finala a:hover{
+    color: rgb(255, 115, 0);
+}

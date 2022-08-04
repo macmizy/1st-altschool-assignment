@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home-page">
+        <nav>
+            <div class="logo">
+                <h2>lo<span>go</span></h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <li> <a href="register.html">Register</a></li>
+                    <li> <a href="#login">Login</a></li>
+                    <li> <a href="calculator.html">Calculator </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="content">
+                <h4>Hello, my name is</h4>
+                <h1><span>Rufai</span> Abdulrahim <span>Moyosore</span></h1>
+                <h3>I'm an electronic & Electrical engineering student at OAU, also a backend engineering student at Altschoolafrica<br>
+                    My goal for this diploma program is to become a world-class software engineer </h3>
+                <h5><span>Education:</span> <br>
+                    FGC Odogbolu, Ogun state. <br>
+                    CTY Model College, Ibadan,Oyo state. <br>
+                    Obafemi Awolowo University, Ile-ife,Osun state. <br>
+                    Altschool Africa
+                </h5>
+                <p><span>Job experience:</span> Freelanced as a secretary remotely while in school. <br>
+                    <span>Hobbies:</span> watching movies/documentaries. <br>
+                   <span>Skills:</span> Financial market analyst (forex and crypto).
+                </p>
+                
+                <div id="contact" class="contact">
+                    <div>
+                        <h2>Contact <span>Us</span></h2>
+                    </div>
+                    <div class="contactform">
+                        <input type="text" class="contactname" placeholder="Name" required>
+                        <input type="email" class="contactemail" placeholder="E-mail"required>
+                        <div class="priority"><label for="priority">priority:</label>
+                            <select name="selectpriority" required>
+                                <option value="select" disabled selected>Select Option</option>
+                                <option value="not urgent">Not Urgent</option>
+                                <option value="urgent">Urgent</option>
+                                <option value="very urgent">Very Urgent</option>
+                            </select>
+                        </div>
+                        <textarea name="message" id="" cols="30" rows="7" placeholder="Leave a message"></textarea>
+    
+                    </div>
+                    <button class="submitbtn"> <a href="#">SUBMIT</a></button>
+            
+                </div>
+            </div>
+            <div class="loginpage" id="login">
+                <h2>Login</h2>
+                <form action="" method="post" class="loginform">
+                        <input type="email" class="inputfield" placeholder="E-mail" required>
+                        <input type="password" class="inputfield" placeholder="Password" required>
+                        <input type="checkbox" class="checkbox" placeholder="Remmeber Password"><span>Remember Password</span>
+                        <button type="submit" class="submitbtn">Log in</button>
+    
+                </form>
+                <p class="reglink">Don't have an account<br>
+                <a href="register.html">Sign up </a>here</p>
+             </div>
+        </div>
+    </div>
+
+</body>
+</html>
